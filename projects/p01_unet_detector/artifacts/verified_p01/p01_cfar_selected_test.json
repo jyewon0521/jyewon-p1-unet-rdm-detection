@@ -1,0 +1,55 @@
+{
+  "kind": "p01_cfar",
+  "split": "test",
+  "data_path": "data\\det_test.h5",
+  "selected_policy": {
+    "tp": 27183,
+    "fp": 11904,
+    "fn": 24244,
+    "tn": 63936669,
+    "Pd": 0.5285744842203501,
+    "Pfa": 0.00018614957991322184,
+    "Precision": 0.695448614628903,
+    "F1": 0.6006363655960216,
+    "target_detected": 7603,
+    "target_total": 10299,
+    "target_recall": 0.7382270123312872,
+    "guard": [
+      1,
+      1
+    ],
+    "train": [
+      4,
+      4
+    ],
+    "pfa_design": 1e-05,
+    "n_eval": 5000,
+    "false_alarms_per_rdm": 2.3808
+  },
+  "results": [
+    {
+      "tp": 27183,
+      "fp": 11904,
+      "fn": 24244,
+      "tn": 63936669,
+      "Pd": 0.5285744842203501,
+      "Pfa": 0.00018614957991322184,
+      "Precision": 0.695448614628903,
+      "F1": 0.6006363655960216,
+      "target_detected": 7603,
+      "target_total": 10299,
+      "target_recall": 0.7382270123312872,
+      "guard": [
+        1,
+        1
+      ],
+      "train": [
+        4,
+        4
+      ],
+      "pfa_design": 1e-05,
+      "n_eval": 5000,
+      "false_alarms_per_rdm": 2.3808
+    }
+  ]
+}

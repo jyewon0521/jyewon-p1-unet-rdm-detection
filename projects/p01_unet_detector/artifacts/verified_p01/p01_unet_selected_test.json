@@ -1,0 +1,41 @@
+{
+  "kind": "p01_unet",
+  "split": "test",
+  "data_path": "data\\det_test.h5",
+  "checkpoint": "artifacts/best_model.pt",
+  "input_mode": "mag_phase",
+  "selected_policy": {
+    "tp": 39463,
+    "fp": 4049,
+    "fn": 11964,
+    "tn": 63944524,
+    "Pd": 0.7673595582087215,
+    "Pfa": 6.331650277794314e-05,
+    "Precision": 0.906945210516637,
+    "F1": 0.8313338037612137,
+    "target_detected": 8559,
+    "target_total": 10299,
+    "target_recall": 0.8310515584037205,
+    "threshold": 0.25,
+    "n_eval": 5000,
+    "false_alarms_per_rdm": 0.8098
+  },
+  "results": [
+    {
+      "tp": 39463,
+      "fp": 4049,
+      "fn": 11964,
+      "tn": 63944524,
+      "Pd": 0.7673595582087215,
+      "Pfa": 6.331650277794314e-05,
+      "Precision": 0.906945210516637,
+      "F1": 0.8313338037612137,
+      "target_detected": 8559,
+      "target_total": 10299,
+      "target_recall": 0.8310515584037205,
+      "threshold": 0.25,
+      "n_eval": 5000,
+      "false_alarms_per_rdm": 0.8098
+    }
+  ]
+}

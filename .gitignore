@@ -1,0 +1,46 @@
+# Generated data (용량 큼, --generate로 재생성 가능)
+**/data/*.h5
+**/data_*/
+projects/p02_resnet18_har/data_stress_*/
+projects/p02_resnet18_har/data_pre_schema*/
+projects/p04_dncnn_sar/raw_sentinel1/
+
+# 학습된 모델 파일 (용량 큼)
+**/*.pt
+
+# artifacts 안의 결과 JSON/PNG는 유지, 모델만 제외
+**/checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+dist/
+build/
+*.so
+
+# Environments
+.venv/
+venv/
+env/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code internal
+.claude/
+
+# Large zip archives
+*.zip
+
+# Jupyter
+.ipynb_checkpoints/
